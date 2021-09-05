@@ -1,1 +1,3 @@
 # Reentrant-Lock-Java
+Java program that uses the ReentrantLock class. Program simulates meal orders in a restaurant. After a chef prepares an order, a server will serve it. There are  random delays in both preparing and serving orders. The program should include three classes Chef, Server and Restaurant. The Chef class extends Thread and it simulates the preparation of orders, the Server class extends Thread and it simulates serving orders, the Restaurant class has the main() function for creating an order queue for the incoming orders, a
+prepared meal queue for the servers and the related Chef and Server threads.
